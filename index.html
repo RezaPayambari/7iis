@@ -21,8 +21,8 @@ canvas{width:100%;display:block;image-rendering:pixelated;border:4px solid #000;
 #log div{margin-bottom:2px}
 #opts{display:flex;gap:8px;margin-top:8px;min-height:54px}
 #opts button{flex:1;padding:8px 6px;font:inherit;font-size:14px;background:#2038A0;color:#fff;border:3px solid #000;border-radius:0}
-#start{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;z-index:9;overflow:auto}
-.pn{background:#f3efe6;color:#111;border:4px solid #000;padding:14px;max-width:420px;width:92%;font-size:14px}
+#start{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;justify-content:center;z-index:9;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:max(28px,env(safe-area-inset-top)) 8px 40px;box-sizing:border-box}
+.pn{background:#f3efe6;color:#111;border:4px solid #000;padding:14px;max-width:420px;width:92%;font-size:14px;margin:auto;box-sizing:border-box}
 .pn h2{margin:0 0 4px}.pn button{border:2px solid #000;background:#fff;padding:6px 8px;margin:2px;font:inherit;cursor:pointer;border-radius:0}
 .pn .sel{background:#d82800;color:#fff}.pn i{display:inline-block;width:22px;height:22px;border:2px solid #000;margin:2px;cursor:pointer}
 .pn i.sel{outline:3px solid #d82800}.pn .rw{margin:6px 0}.pn .go{width:100%;background:#2038a0;color:#fff;padding:10px;font-size:16px}
